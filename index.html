@@ -1,0 +1,1501 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./images/COJIM/logo.png" rel="icon">
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+
+    <!-- Font Awesome -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"> -->
+
+
+    <!-- Themify Icons (CDN) -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@icon/themify-icons@1.0.1-alpha.3/themify-icons.min.css"> -->
+
+
+    <!--Title-->
+    <title>COJIM_CLONE</title>
+    <!-- CSS -->
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Simple Line Icons -->
+    <link rel="stylesheet" href="css/simple-line-icons.min.css">
+    <!-- Themify Icons -->
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <!-- Owl Slider -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- Revolution Slider -->
+    <link rel="stylesheet" type="text/css" href="rs-plugin/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+    <!-- REVOLUTION STYLE SHEETS -->
+    <link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css">
+    <link rel="stylesheet" type="text/css" href="rs-plugin/css/main-slider/rs6.css">
+    <!-- Color Panel -->
+    <link href="css/color_panel.css" rel="stylesheet" type="text/css" />
+    <!-- Color Panel -->
+    <link href="css/color_panel.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/color-schemes/red.css" id="changeable-colors">
+    <!-- Main Style -->
+    <link rel="stylesheet" href="css/style.css" class="main-style">
+    <style>
+        #rev_slider_6_1_wrapper .tp-loader.spinner1 {
+            background-color: #FFFFFF !important;
+        }
+    </style>
+    <style>
+        .rs-layer.Concept-Content a,
+        .rs-layer.Concept-Content a:visited {
+            color: #fff !important;
+            border-bottom: 1px solid #fff !important;
+            font-weight: 700 !important
+        }
+
+        .rs-layer.Concept-Content a:hover {
+            border-bottom: 1px solid transparent !important
+        }
+
+        .rs-layer.Concept-Content-Dark a,
+        .rs-layer.Concept-Content-Dark a:visited {
+            color: #000 !important;
+            border-bottom: 1px solid #000 !important;
+            font-weight: 700 !important
+        }
+
+        .rs-layer.Concept-Content-Dark a:hover {
+            border-bottom: 1px solid transparent !important
+        }
+
+        @media only screen and (max-width:575px) {
+            rs-layer.res-slide-btn {
+                padding: 7px 16px !important;
+                font-size: 13px !important
+            }
+        }
+
+        #rev_slider_1_1_wrapper .zeus.tparrows {
+            cursor: pointer;
+            min-width: 60px;
+            min-height: 60px;
+            position: absolute;
+            display: block;
+            z-index: 1000;
+            border-radius: 50%;
+            overflow: hidden;
+            background: rgba(0, 0, 0, 0.38)
+        }
+
+        #rev_slider_1_1_wrapper .zeus.tparrows:before {
+            font-family: 'revicons';
+            font-size: 17px;
+            color: #ffffff;
+            display: block;
+            line-height: 60px;
+            text-align: center;
+            z-index: 2;
+            position: relative
+        }
+
+        #rev_slider_1_1_wrapper .zeus.tparrows.tp-leftarrow:before {
+            content: '\e824'
+        }
+
+        #rev_slider_1_1_wrapper .zeus.tparrows.tp-rightarrow:before {
+            content: '\e825'
+        }
+
+        #rev_slider_1_1_wrapper .zeus .tp-title-wrap {
+            background: rgba(0, 0, 0, 0.5);
+            width: 100%;
+            height: 100%;
+            top: 0px;
+            left: 0px;
+            position: absolute;
+            opacity: 0;
+            transform: scale(0);
+            -webkit-transform: scale(0);
+            transition: all 0.3s;
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            border-radius: 50%
+        }
+
+        #rev_slider_1_1_wrapper .zeus .tp-arr-imgholder {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            background-position: center center;
+            background-size: cover;
+            border-radius: 50%;
+            transform: translatex(-100%);
+            -webkit-transform: translatex(-100%);
+            transition: all 0.3s;
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s
+        }
+
+        #rev_slider_1_1_wrapper .zeus.tp-rightarrow .tp-arr-imgholder {
+            transform: translatex(100%);
+            -webkit-transform: translatex(100%)
+        }
+
+        #rev_slider_1_1_wrapper .zeus.tparrows.rs-touchhover .tp-arr-imgholder {
+            transform: translatex(0);
+            -webkit-transform: translatex(0);
+            opacity: 1
+        }
+
+        #rev_slider_1_1_wrapper .zeus.tparrows.rs-touchhover .tp-title-wrap {
+            transform: scale(1);
+            -webkit-transform: scale(1);
+            opacity: 1
+        }
+
+        #rev_slider_1_1[data-slideactive="rs-1"] .zeus.tparrows {
+            min-width: 60px !important;
+            min-height: 60px !important;
+            background: rgba(0, 0, 0, 0.38) !important
+        }
+
+        #rev_slider_1_1[data-slideactive="rs-1"] .zeus.tparrows:before {
+            line-height: 60px !important;
+            font-size: 17px !important
+        }
+
+        #rev_slider_1_1[data-slideactive="rs-2"] .zeus.tparrows {
+            min-width: 60px !important;
+            min-height: 60px !important;
+            background: rgba(0, 0, 0, 0.38) !important
+        }
+
+        #rev_slider_1_1[data-slideactive="rs-2"] .zeus.tparrows:before {
+            line-height: 60px !important;
+            color: #ffffff !important;
+            font-size: 17px !important
+        }
+
+        #rev_slider_1_1[data-slideactive="rs-3"] .zeus.tparrows {
+            min-width: 60px !important;
+            min-height: 60px !important;
+            background: rgba(0, 0, 0, 0.38) !important
+        }
+
+        #rev_slider_1_1[data-slideactive="rs-3"] .zeus.tparrows:before {
+            line-height: 60px !important;
+            font-size: 17px !important
+        }
+    </style>
+</head>
+<!--Body Start-->
+
+<body data-res-from="1025">
+    <!--Page Loader-->
+    <div class="page-loader"></div>
+    <!--Zmm Wrapper-->
+    <div class="zmm-wrapper">
+        <a href="#" class="zmm-close close"></a>
+        <div class="zmm-inner bg-white typo-dark">
+            <div class="text-center mobile-logo-part margin-bottom-30">
+                <a href="index.html" class="img-before"><img src="images/COJIM/logo.png"
+                        class="img-fluid changeable-dark" width="170" height="51" alt="Logo"></a>
+            </div>
+            <div class="zmm-main-nav"> </div>
+            <div class="search-form-wrapper margin-top-30">
+                <form class="search-form" role="search">
+                    <div class="input-group add-on">
+                        <input class="form-control" placeholder="Search for.." name="srch-term" type="text">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default search-btn" type="submit"><i
+                                    class="ti-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Overlay Search -->
+    <div class="overlay-search text-center hide">
+        <a href="#" class="close close-light overlay-search-close"></a>
+        <div class="search-form-wrapper">
+            <form class="navbar-form search-form sliding-search-form" role="search">
+                <div class="input-group add-on">
+                    <input class="form-control" placeholder="Search for.." name="srch-term" type="text">
+                    <div class="input-group-btn">
+                        <button class="btn btn-default search-btn" type="submit"><i class="ti-arrow-right"></i></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- Main wrapper-->
+    <div class="page-wrapper">
+        <div class="page-wrapper-inner">
+            <header>
+                <!--Mobile Header-->
+                <div class="mobile-header bg-white typo-dark">
+                    <div class="mobile-header-inner">
+                        <div class="sticky-outer">
+                            <div class="sticky-head">
+                                <div class="basic-container clearfix">
+                                    <ul class="nav mobile-header-items pull-left">
+                                        <li class="nav-item"><a href="#" class="zmm-toggle img-before"><i
+                                                    class="ti-menu"></i></a></li>
+                                    </ul>
+                                    <ul class="nav mobile-header-items pull-center">
+                                        <li>
+                                            <a href="index.html" class="img-before"><img src="images/COJIM/logo.png"
+                                                    class="img-fluid changeable-dark" width="149" height=""
+                                                    alt="Logo"></a>
+                                        </li>
+                                    </ul>
+                                    <ul class="nav mobile-header-items pull-right">
+                                        <li class="nav-item"><a href="#" class="img-before overlay-search-switch"><i
+                                                    class="icon-magnifier icons"></i></a></li>
+                                    </ul>
+                                </div>
+                                <!-- .basic-container -->
+                            </div>
+                            <!-- .sticky-head -->
+                        </div>
+                        <!-- .sticky-outer -->
+                    </div>
+                    <!-- .mobile-header-inner -->
+                </div>
+                <!-- .mobile-header -->
+                <!--Header-->
+                <div class="header-inner header-1 header-absolute">
+                    <!--Topbar-->
+                    <div class="topbar relative">
+                        <div class="basic-container clearfix">
+                            <ul class="nav topbar-items pull-left">
+                                <li class="nav-item">
+                                    <ul class="nav header-info">
+                                        <li>
+                                            <div class="header-address typo-white"><i class="bi bi-geo-alt"></i>
+                                                IN/20 Emene industrial layout, Enugu, Nigeria</div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="nav topbar-items pull-right">
+                                <li class="nav-item">
+                                    <div class="social-icons typo-white">
+                                        <!-- Facebook -->
+                                        <a href="https://facebook.com/ChristopherOrjiMinistriesCOJIM" class="social-fb"
+                                            target="_blank">
+                                            <i class="bi bi-facebook fs-4 me-3"></i>
+                                        </a>
+
+                                        <!-- Twitter -->
+                                        <a href="https://twitter.com/cojimofficiel" class="social-twitter"
+                                            target="_blank">
+                                            <i class="bi bi-twitter fs-4 me-3"></i>
+                                        </a>
+
+                                        <!-- Instagram -->
+                                        <a href="https://instagram.com/cojimofficiel" class="social-instagram"
+                                            target="_blank">
+                                            <i class="bi bi-instagram fs-4 me-3"></i>
+                                        </a>
+
+                                        <!-- TikTok -->
+                                        <a href="https://tiktok.com/@cojim" class="social-tiktok" target="_blank">
+                                            <i class="bi bi-tiktok fs-4 me-3"></i>
+                                        </a>
+
+                                        <!-- YouTube -->
+                                        <a href="https://youtube.com/@COJIMOfficial" class="social-youtube"
+                                            target="_blank">
+                                            <i class="bi bi-youtube fs-4 me-3 text-danger"></i>
+                                        </a>
+
+                                        <!-- Twitch -->
+                                        <a href="https://twitch.tv/christopherorjiministries" class="social-twitch"
+                                            target="_blank">
+                                            <i class="bi bi-twitch fs-4 me-3"></i>
+                                        </a>
+
+                                        <!-- Give (Logif) -->
+                                        <a href="https://logif.org" class="social-give" target="_blank" title="Give">
+                                            <i class="bi bi-heart-fill fs-4 text-danger"></i>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li><a href="#" class="full-view-switch text-center"><i class="bi bi-search"></i></a></li>
+                            </ul>
+                        </div>
+                        <!--Search-->
+                        <div class="full-view-wrapper hide">
+                            <a href="#" class="close full-view-close"></a>
+                            <form class="navbar-form search-form" role="search">
+                                <div class="input-group">
+                                    <input class="form-control" placeholder="Search hit enter.." name="srch-term"
+                                        type="text">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!--Topbar-->
+                    <!--Sticky part-->
+                    <div class="sticky-outer">
+                        <div class="sticky-head">
+                            <!--Navbar-->
+                            <nav class="navbar nav-shadow">
+                                <div class="basic-container clearfix">
+                                    <div class="">
+                                        <!--Overlay Menu Switch-->
+                                        <ul class="nav navbar-items pull-left">
+                                            <li class="list-item">
+                                                <a href="index.html" class="logo-general"><img
+                                                        src="images/COJIM/logo.png" class="img-fluid changeable-light"
+                                                        width="166" height="50" alt="Logo" /></a>
+                                                <a href="index.html" class="logo-sticky"><img
+                                                        src="images/COJIM/logo.png" class="img-fluid changeable-dark"
+                                                        width="166" height="50" alt="Logo" /></a>
+                                            </li>
+                                        </ul>
+                                        <!-- Menu -->
+                                        <ul class="nav navbar-items pull-right">
+                                            <!--List Item-->
+                                            <li class="list-item">
+                                                <ul class="nav navbar-main menu-white">
+                                                    <li class="active dropdown cus-img-menu dropdown-sub"><a
+                                                            href="index.html">Home</a>
+
+                                                    </li>
+
+                                                    <li class="dropdown dropdown-sub"><a href="#sermons">Sermons</a>
+
+                                                    </li>
+                                                    <li class="dropdown mega-dropdown dropdown-sub relative"><a
+                                                            href="https://logif.org/" target="_blank">LOGIF</a>
+
+                                                    </li>
+                                                    <li class="dropdown dropdown-sub"><a
+                                                            href="blog.html">Testimonies</a>
+
+                                                    </li>
+                                                    <li><a href="#contact">Contact Us</a></li>
+                                                     <li><a href="https://1techtee.github.io/CojimTube/" target="_blank">Media</a></li>
+                                                </ul>
+                                            </li>
+                                            <!--List Item End-->
+                                            <!--List Item-->
+                                            <li class="list-item">
+                                                <div class="header-navbar-text-1"><a href="https://cojim.org/partnership"
+                                                        class="h-donate-btn">Become a Member</a></div>
+                                            </li>
+                                            <!--List Item End-->
+                                        </ul>
+                                        <!-- Menu -->
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                        <!--sticky-head-->
+                    </div>
+                    <!--sticky-outer-->
+                </div>
+            </header>
+            <!-- header -->
+            <!-- Revolution Slider Section -->
+            <p class="rs-p-wp-fix"></p>
+            <rs-module-wrap id="rev_slider_1_1_wrapper" data-alias="zegen-home-1" data-source="gallery"
+                style="visibility:hidden;background:#000000;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
+                <rs-module id="rev_slider_1_1" style="" data-version="6.5.31">
+                    <rs-slides>
+                        <rs-slide style="position: absolute;" data-key="rs-1" data-title="Web Show"
+                            data-thumb="rs-plugin/assets/zmain-slider-1-1536x864-100x100.jpg"
+                            data-anim="adpr:false;e:slidingoverlay;ms:2000;" data-in="o:1;x:(100%);"
+                            data-out="a:false;">
+                            <img src="./images/COJIM/slide-1.jpg" alt="Non Profit Wordpress Theme"
+                                title="zmain-slider-1.jpg" width="1536" height="864"
+                                class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="./images/COJIM/slide-1.jpg"
+                                data-parallax="5" data-no-retina>
+                            <!--							-->
+                            <h1 id="slider-1-slide-1-layer-2" class="rs-layer Concept-Title" data-type="text"
+                                data-color="#ffffff||rgba(255, 255, 255, 1)||rgba(255, 255, 255, 1)||rgba(255, 255, 255, 1)"
+                                data-rsp_ch="on" data-xy="x:c;y:m;yo:10px,-26px,-10px,-33px;"
+                                data-text="w:normal,nowrap,nowrap,normal;s:54,50,45,30;l:52,55,50,40;ls:3px;fw:700;a:center;"
+                                data-dim="w:754px,699px,auto,400px;" data-padding="b:10;" data-frame_0="sX:2;sY:2;"
+                                data-frame_0_mask="u:t;" data-frame_1="e:power2.out;st:2110;sp:1270;sR:2110;"
+                                data-frame_1_mask="u:t;" data-frame_999="x:left;e:power3.in;st:w;sp:1000;sR:5620;"
+                                data-frame_999_reverse="x:true;"
+                                style="z-index:10;font-family:'Poppins';text-transform:uppercase;">WELCOME TO THE CITY
+                                OF JESUS INTERNATIONAL MINISTRY
+                            </h1>
+                            <!--							-->
+                            <rs-layer id="slider-1-slide-1-layer-4" class="Concept-SubTitle" data-type="text"
+                                data-color="" data-rsp_ch="on" data-xy="x:c;y:m;yo:-42px,-83px,-64px,-71px;"
+                                data-text="w:normal,nowrap,nowrap,nowrap;s:21,20,20,15;l:21,25,20,20;fw:700;a:center,left,left,left;"
+                                data-dim="w:408px,auto,auto,auto;" data-padding="b:10;" data-frame_0="o:1;"
+                                data-frame_0_chars="d:5;y:100%;o:0;rZ:-35deg;" data-frame_0_mask="u:t;"
+                                data-frame_1="st:640;sp:1200;sR:640;" data-frame_1_chars="e:power4.inOut;d:10;rZ:0deg;"
+                                data-frame_1_mask="u:t;" data-frame_999="x:left;e:power3.in;st:w;sp:1000;sR:4960;"
+                                data-frame_999_reverse="x:true;"
+                                style="z-index:11;font-family:'Open Sans';text-transform:uppercase;">
+                            </rs-layer>
+                            <!--							-->
+                            <rs-layer id="slider-1-slide-1-layer-14" data-type="text" data-rsp_ch="on"
+                                data-xy="x:c;y:m,t,t,t;yo:78px,286px,271px,233px;"
+                                data-text="w:normal;s:18,18,16,15;l:31,30,30,27;a:center;"
+                                data-dim="w:806px,805px,689px,388px;h:auto,auto,auto,89px;" data-frame_0="y:100%;"
+                                data-frame_0_mask="u:t;" data-frame_1="st:2680;sp:1360;sR:2680;"
+                                data-frame_1_mask="u:t;" data-frame_999="o:0;st:w;sR:4960;"
+                                style="z-index:9;font-family:'Open Sans';"></rs-layer>
+                            <!--							-->
+                            <rs-layer id="slider-1-slide-1-layer-16" class="res-slide-btn pop rev-btn"
+                                data-type="button" data-color="rgba(255,255,255,1)"
+                                data-xy="x:c;y:m;yo:162px,130px,128px,117px;"
+                                data-text="s:16,16,14,14;l:17;fw:500;a:center;" data-rsp_bd="off"
+                                data-padding="t:15,15,10,10;r:35,35,25,25;b:15,15,10,10;l:35,35,25,25;"
+                                data-border="bor:3px,3px,3px,3px;" data-frame_0="rX:-70deg;oZ:-50;"
+                                data-frame_1="oZ:-50;e:power4.inOut;st:3160;sp:1750;" data-frame_999="o:0;st:w;sR:4640;"
+                                data-frame_hover="bgc:#000;boc:#000;bor:3px,3px,3px,3px;bos:solid;oX:50;oY:50;sp:0;"
+                                style="z-index:8;font-family:'Poppins';cursor:pointer;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;">Contact
+                                Us </rs-layer>
+                            <!--							-->
+                            <rs-layer id="slider-1-slide-1-layer-21" data-type="image" data-rsp_ch="on"
+                                data-xy="x:c;yo:228px,95px,91px,90px;" data-text="w:normal;s:20,16,12,7;l:0,20,15,9;"
+                                data-dim="w:67px,60px,56px,45px;h:67px,60px,56px,45px;" data-frame_0="x:100%;"
+                                data-frame_0_mask="u:t;" data-frame_1="st:210;sp:1000;sR:210;" data-frame_1_mask="u:t;"
+                                data-frame_999="o:0;st:w;sR:7790;" style="z-index:12;"><img
+                                    src="./images/COJIM/logo.png" alt="Non Profit Wordpress Theme"
+                                    class="tp-rs-img rs-lazyload" width="80" height="80"
+                                    data-lazyload="./images/COJIM/logo.png" data-no-retina> </rs-layer>
+                            <!---->
+                        </rs-slide>
+                        <rs-slide style="position: absolute;" data-key="rs-2" data-title="Web Show"
+                            data-thumb="rs-plugin/assets/zmain-slider-3-1536x864-100x100.jpg"
+                            data-anim="adpr:false;e:slidingoverlay;ms:2000;" data-in="o:1;x:(100%);"
+                            data-out="a:false;">
+                            <img src="./images/COJIM/c.orji 10.jpg" alt="Non Profit Wordpress Theme"
+                                title="zmain-slider-3.jpg" width="1536" height="864"
+                                class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="./images/COJIM/c.orji 10.jpg"
+                                data-parallax="5" data-no-retina>
+                            <!--							-->
+                            <h1 id="slider-1-slide-2-layer-2" class="rs-layer Concept-Title" data-type="text"
+                                data-color="#ffffff||rgba(255, 255, 255, 1)||rgba(255, 255, 255, 1)||rgba(255, 255, 255, 1)"
+                                data-rsp_ch="on" data-xy="x:c;y:m;yo:10px,0,-10px,-32px;"
+                                data-text="w:normal,nowrap,nowrap,normal;s:54,50,45,28;l:52,55,50,30;ls:3px;fw:700;a:center;"
+                                data-dim="w:922px,845px,736px,478px;h:62px,auto,auto,35px;" data-padding="b:10;"
+                                data-frame_0="sX:2;sY:2;" data-frame_0_mask="u:t;"
+                                data-frame_1="e:power2.out;st:2110;sp:1270;sR:2110;" data-frame_1_mask="u:t;"
+                                data-frame_999="x:left;e:power3.in;st:w;sp:1000;sR:5620;"
+                                data-frame_999_reverse="x:true;"
+                                style="z-index:10;font-family:'Poppins';text-transform:uppercase;"> </h1>
+                            <!--							-->
+                            <rs-layer id="slider-1-slide-2-layer-4" class="Concept-SubTitle" data-type="text"
+                                data-color="" data-rsp_ch="on" data-xy="x:c;y:m;yo:-42px,-47px,-55px,-72px;"
+                                data-text="w:normal,nowrap,nowrap,nowrap;s:21,20,20,15;l:21,25,20,20;fw:700;a:center,center,left,left;"
+                                data-dim="w:446px,424px,auto,auto;" data-padding="b:10;" data-frame_0="o:1;"
+                                data-frame_0_chars="d:5;y:100%;o:0;rZ:-35deg;" data-frame_0_mask="u:t;"
+                                data-frame_1="st:640;sp:1200;sR:640;" data-frame_1_chars="e:power4.inOut;d:10;rZ:0deg;"
+                                data-frame_1_mask="u:t;" data-frame_999="x:left;e:power3.in;st:w;sp:1000;sR:4960;"
+                                data-frame_999_reverse="x:true;"
+                                style="z-index:11;font-family:'Open Sans';text-transform:uppercase;">"CHURCH IS A PLACE
+                                WHERE GOD OPERATES THROUGH HIS WORD AND SPIRIT" ~CHRISTOPHER ORJI </rs-layer>
+                            <!--							-->
+                            <rs-layer id="slider-1-slide-2-layer-14" data-type="text" data-rsp_ch="on"
+                                data-xy="x:c;y:m,t,t,t;yo:78px,312px,271px,234px;"
+                                data-text="w:normal;s:18,18,16,15;l:31,30,30,27;a:center;"
+                                data-dim="w:806px,805px,689px,388px;h:auto,auto,auto,89px;" data-frame_0="y:100%;"
+                                data-frame_0_mask="u:t;" data-frame_1="st:2680;sp:1360;sR:2680;"
+                                data-frame_1_mask="u:t;" data-frame_999="o:0;st:w;sR:4960;"
+                                style="z-index:9;font-family:'Open Sans';"> </rs-layer>
+                            <!--							--><a id="slider-1-slide-2-layer-16" class="rs-layer res-slide-btn pop rev-btn"
+                                href="sermons.html" target="_self" data-type="button" data-color="rgba(255,255,255,1)"
+                                data-xy="x:c;y:m;yo:177px,156px,128px,118px;"
+                                data-text="s:16,16,14,14;l:17;fw:500;a:center;" data-rsp_bd="off"
+                                data-padding="t:15,15,10,10;r:35,35,25,25;b:15,15,10,10;l:35,35,25,25;"
+                                data-border="bor:3px,3px,3px,3px;" data-frame_0="y:100%;"
+                                data-frame_1="e:power4.inOut;st:3160;sp:1200;sR:3160;"
+                                data-frame_999="o:0;st:w;sR:4640;"
+                                data-frame_hover="bgc:#000;boc:#000;bor:3px,3px,3px,3px;bos:solid;oX:50;oY:50;sp:0;"
+                                style="z-index:8;font-family:'Poppins';cursor:pointer;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;">View
+                                Sermons </a>
+                            <!--							-->
+                            <rs-layer id="slider-1-slide-2-layer-21" data-type="image" data-rsp_ch="on"
+                                data-xy="x:c;yo:228px,133px,102px,89px;" data-text="w:normal;s:20,16,12,7;l:0,20,15,9;"
+                                data-dim="w:67px,60px,56px,45px;h:67px,60px,56px,45px;" data-frame_0="x:100%;"
+                                data-frame_0_mask="u:t;" data-frame_1="st:210;sp:1000;sR:210;" data-frame_1_mask="u:t;"
+                                data-frame_999="o:0;st:w;sR:7790;" style="z-index:12;"><img
+                                    src="rs-plugin/assets/dummy.png" alt="Non Profit Wordpress Theme"
+                                    class="tp-rs-img rs-lazyload" width="80" height="80"
+                                    data-lazyload="rs-plugin/assets/loveus.png" data-no-retina> </rs-layer>
+                            <!---->
+                        </rs-slide>
+                        <rs-slide style="position: absolute;" data-key="rs-3" data-title="Web Show"
+                            data-thumb="rs-plugin/assets/zmain-slider-2-1536x864-100x100.jpg"
+                            data-anim="adpr:false;e:slidingoverlay;ms:2000;" data-in="o:1;x:(100%);"
+                            data-out="a:false;">
+                            <img src="./images/COJIM/slide-3.jpg" alt="Non Profit Wordpress Theme"
+                                title="zmain-slider-2.jpg" width="1536" height="864"
+                                class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="./images/COJIM/slide-3.jpg"
+                                data-parallax="5" data-no-retina>
+                            <!--							-->
+                            <h1 id="slider-1-slide-3-layer-2" class="rs-layer Concept-Title" data-type="text"
+                                data-color="#ffffff||rgba(255, 255, 255, 1)||rgba(255, 255, 255, 1)||rgba(255, 255, 255, 1)"
+                                data-rsp_ch="on" data-xy="x:c;y:m;yo:10px,0,-10px,-38px;"
+                                data-text="w:normal,nowrap,nowrap,normal;s:54,50,45,28;l:52,55,50,30;ls:3px;fw:700;a:center;"
+                                data-dim="w:922px,845px,736px,478px;h:62px,auto,auto,35px;" data-padding="b:10;"
+                                data-frame_0="sX:2;sY:2;" data-frame_0_mask="u:t;"
+                                data-frame_1="e:power2.out;st:2110;sp:1270;sR:2110;" data-frame_1_mask="u:t;"
+                                data-frame_999="x:left;e:power3.in;st:w;sp:1000;sR:5620;"
+                                data-frame_999_reverse="x:true;"
+                                style="z-index:10;font-family:'Poppins';text-transform:uppercase;">EXPERIENCE JESUS
+                                CHRIST</h1>
+                            </h1>
+                            <!--							-->
+                            <rs-layer id="slider-1-slide-3-layer-4" class="Concept-SubTitle" data-type="text"
+                                data-color="" data-rsp_ch="on" data-xy="x:c;y:m;yo:-42px,-47px,-55px,-76px;"
+                                data-text="w:normal,nowrap,nowrap,nowrap;s:21,20,20,15;l:21,25,20,20;fw:700;a:center,center,left,left;"
+                                data-dim="w:446px,424px,auto,auto;" data-padding="b:10;" data-frame_0="o:1;"
+                                data-frame_0_chars="d:5;y:100%;o:0;rZ:-35deg;" data-frame_0_mask="u:t;"
+                                data-frame_1="st:640;sp:1200;sR:640;" data-frame_1_chars="e:power4.inOut;d:10;rZ:0deg;"
+                                data-frame_1_mask="u:t;" data-frame_999="x:left;e:power3.in;st:w;sp:1000;sR:4960;"
+                                data-frame_999_reverse="x:true;"
+                                style="z-index:11;font-family:'Open Sans';text-transform:uppercase;">JOIN US THIS SUNDAY
+                            </rs-layer>
+                            <!--							-->
+                            <rs-layer id="slider-1-slide-3-layer-14" data-type="text" data-rsp_ch="on"
+                                data-xy="x:c;y:m,t,t,t;yo:78px,312px,271px,228px;"
+                                data-text="w:normal;s:18,18,16,15;l:31,30,30,27;a:center;"
+                                data-dim="w:806px,805px,689px,388px;h:auto,auto,auto,89px;" data-frame_0="y:100%;"
+                                data-frame_0_mask="u:t;" data-frame_1="st:2680;sp:1360;sR:2680;"
+                                data-frame_1_mask="u:t;" data-frame_999="o:0;st:w;sR:4960;"
+                                style="z-index:9;font-family:'Open Sans';">Our mission is to preach and teach all
+                                nations and every creature, the gospel of our Lord and Saviour Jesus Christ,
+                                in both words and Life and with it, bring the lost sheep to the Kingdom of God.
+                            </rs-layer>
+                            <!--							--><a id="slider-1-slide-3-layer-16" class="rs-layer res-slide-btn pop rev-btn"
+                                href="ministries-grid-2.html" target="_self" data-type="button"
+                                data-color="rgba(255,255,255,1)" data-xy="x:c;y:m;yo:162px,156px,128px,112px;"
+                                data-text="s:16,16,14,14;l:17;fw:500;a:center;" data-rsp_bd="off"
+                                data-padding="t:15,15,10,10;r:35,35,25,25;b:15,15,10,10;l:35,35,25,25;"
+                                data-border="bor:3px,3px,3px,3px;" data-frame_0="y:100%;"
+                                data-frame_1="e:power4.inOut;st:3160;sp:1200;sR:3160;"
+                                data-frame_999="o:0;st:w;sR:4640;"
+                                data-frame_hover="bgc:#000;boc:#000;bor:3px,3px,3px,3px;bos:solid;oX:50;oY:50;sp:0;"
+                                style="z-index:8;font-family:'Poppins';cursor:pointer;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;">View
+                                Ministries </a>
+                            <!--							-->
+                            <rs-layer id="slider-1-slide-3-layer-21" data-type="image" data-rsp_ch="on"
+                                data-xy="x:c;yo:228px,133px,102px,85px;" data-text="w:normal;s:20,16,12,7;l:0,20,15,9;"
+                                data-dim="w:67px,60px,56px,45px;h:67px,60px,56px,45px;" data-frame_0="x:100%;"
+                                data-frame_0_mask="u:t;" data-frame_1="st:210;sp:1000;sR:210;" data-frame_1_mask="u:t;"
+                                data-frame_999="o:0;st:w;sR:7790;" style="z-index:12;"><img
+                                    src="rs-plugin/assets/dummy.png" alt="Non Profit Wordpress Theme"
+                                    class="tp-rs-img rs-lazyload" width="80" height="80"
+                                    data-lazyload="rs-plugin/assets/bible.png" data-no-retina> </rs-layer>
+                            <!---->
+                        </rs-slide>
+                    </rs-slides>
+                    <rs-static-layers>
+                        <!--					-->
+                    </rs-static-layers>
+                </rs-module>
+                <script>
+                </script>
+                <script>
+                    if (typeof revslider_showDoubleJqueryError === "undefined") {
+                        function revslider_showDoubleJqueryError(sliderID) {
+                            console.log("You have some jquery.js library include that comes after the Slider Revolution files js inclusion.");
+                            console.log("To fix this, you can:");
+                            console.log("1. Set 'Module General Options' -> 'Advanced' -> 'jQuery & OutPut Filters' -> 'Put JS to Body' to on");
+                            console.log("2. Find the double jQuery.js inclusion and remove it");
+                            return "Double Included jQuery Library";
+                        }
+                    }
+                </script>
+            </rs-module-wrap>
+            <!-- Revolution Slider Section End -->
+            <!-- Page Content -->
+            <div class="content-wrapper pad-none">
+                <div class="content-inner">
+                    <!-- Events Section -->
+                    <section class="events-section pad-tb-0 broken-top-50 pt-sm-5 pt-xl-0 pad-bottom-md-none">
+                        <div class="container">
+                            <!-- Row -->
+                            <div class="row">
+                                <!--Events Main Slider-->
+                                <div class="owl-carousel events-main-wrapper events-style-1" data-loop="1" data-nav="0"
+                                    data-dots="1" data-autoplay="0" data-autoplaypause="1" data-autoplaytime="5000"
+                                    data-smartspeed="1000" data-margin="30" data-items="2" data-items-tab="1"
+                                    data-items-mob="1">
+                                    <!--Item-->
+                                    <div class="item">
+                                        <!--Events Inner-->
+                                        <div class="events-inner">
+                                            <div class="events-item">
+                                                <div class="media">
+                                                    <div class="event-date me-4">Jan 3<span class="event-time">8.00
+                                                            am</span> </div>
+                                                    <div class="media-body">
+                                                        <!-- Ministries Content -->
+                                                        <div class="event-content">
+                                                            <div class="event-title">
+                                                                <h5><a href="event-details.html">COJIM Youth Conference
+                                                                        coming up!
+                                                                    </a></h5>
+                                                            </div>
+                                                            <div class="read-more"><a href="event-details.html">Event
+                                                                    Details</a></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--Events Inner Ends-->
+                                    </div>
+                                    <!--Item Ends-->
+                                    <!--Item-->
+                                    <div class="item">
+                                        <!--Events Inner-->
+                                        <div class="events-inner">
+                                            <div class="events-item">
+                                                <div class="media">
+                                                    <div class="event-date me-4">Feb 12<span class="event-time">7.00
+                                                            am</span> </div>
+                                                    <div class="media-body">
+                                                        <!-- Ministries Content -->
+                                                        <div class="event-content">
+                                                            <div class="event-title">
+                                                                <h5><a href="event-details.html">International
+                                                                        Partnership Meeting Coming up!
+                                                                    </a></h5>
+                                                            </div>
+                                                            <div class="read-more"><a href="event-details.html">Event
+                                                                    Details</a></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--Events Inner Ends-->
+                                    </div>
+                                    <!--Item Ends-->
+                                    <!--Item-->
+                                    <div class="item">
+                                        <!--Events Inner-->
+                                        <div class="events-inner">
+                                            <div class="events-item">
+                                                <div class="media">
+                                                    <div class="event-date me-4">Mar 3<span class="event-time">6.00
+                                                            am</span> </div>
+                                                    <div class="media-body">
+                                                        <!-- Ministries Content -->
+                                                        <div class="event-content">
+                                                            <div class="event-title">
+                                                                <h5><a href="event-details.html">Membership Screening
+                                                                    </a></h5>
+                                                            </div>
+                                                            <div class="read-more"><a href="event-details.html">Event
+                                                                    Details</a></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--Events Inner Ends-->
+                                    </div>
+                                    <!--Item Ends-->
+                                    <!--Item-->
+                                    <div class="item">
+                                        <!--Events Inner-->
+                                        <div class="events-inner">
+                                            <div class="events-item">
+                                                <div class="media">
+                                                    <div class="event-date me-4">Apr 18<span class="event-time">12.00
+                                                            pm</span> </div>
+                                                    <div class="media-body">
+                                                        <!-- Ministries Content -->
+                                                        <div class="event-content">
+                                                            <div class="event-title">
+                                                                <h5><a href="event-details.html">COJIM kids Retreat!
+                                                                    </a></h5>
+                                                            </div>
+                                                            <div class="read-more"><a href="event-details.html">Event
+                                                                    Details</a></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--Events Inner Ends-->
+                                    </div>
+                                    <!--Item Ends-->
+                                </div>
+                                <!--Events Owl Slider-->
+                            </div>
+                            <!-- Row -->
+                        </div>
+                        <!-- Container -->
+                    </section>
+                    <!-- Events Section End -->
+                    <!-- About Section -->
+                    <section id="section-about" class="section-about pad-top-90">
+                        <div class="container">
+                            <!-- Row -->
+                            <div class="row">
+                                <!-- Col -->
+                                <div class="col-xl-6 align-self-center">
+                                    <!-- about wrap -->
+                                    <div class="about-wrap relative">
+                                        <div class="about-wrap-inner">
+                                            <!-- about details -->
+                                            <div class="about-wrap-details">
+                                                <!-- about button -->
+                                                <div class="text-center">
+                                                    <div class="about-img bf-pattern mb-5 mb-xl-0"> <img
+                                                            src="images/COJIM/C.Orji1.jpg" class="" alt="about-img">
+                                                    </div>
+                                                    <!-- .col -->
+                                                </div>
+                                            </div>
+                                            <!-- about details End-->
+                                        </div>
+                                    </div>
+                                    <!-- about wrap end -->
+                                </div>
+                                <!-- .col -->
+                                <!-- Col -->
+                                <div class="col-xl-6 px-3 ps-xl-0">
+                                    <div class="title-wrap margin-bottom-30">
+                                        <div class="section-title"> <span
+                                                class="sub-title theme-color text-uppercase">About Us</span>
+                                            <h2 class="section-title margin-top-5">God, Jesus Christ and the Holy Spirit
+                                                are the spiritual
+                                                leaders of the City of Jesus International Ministry through God's
+                                                servant Christopher Orji
+                                            </h2> <span class="border-bottom"></span>
+                                        </div>
+                                        <div class="pad-top-15">
+                                            <p class="margin-bottom-20">Ever since the City of Jesus International
+                                                Ministry was founded in 2019,
+                                                it has been a place of worship, prayer, and fellowship for believers.
+                                                We are committed to spreading the gospel and making disciples of all
+                                                nations as commanded by
+                                                our Lord Jesus Christ.</p>
+                                            </p>
+                                            <p class="styled-text">Hebrew 11:10 "for we looked forward to a city whose
+                                                builder and foundation was God"
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <!-- Feature Box -->
+                                        <div class="col-md-6">
+                                            <div class="feature-box-wrap f-box-style-1 mb-md-0 mb-sm-4 relative">
+                                                <div class="feature-box-details">
+                                                    <div class="feature-icon margin-bottom-25"> <i
+                                                            class="bi bi-heart"></i> </div>
+                                                    <div class="feature-content">
+                                                        <div class="feature-title relative margin-bottom-15">
+                                                            <h4>Partner with COJIM</h4>
+                                                        </div>
+                                                        <p class="mb-0">Join thousands all around the world
+                                                            to spread the gospel of our lord and saviour Jesus Christ.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Feature Box End -->
+                                        <!-- Feature Box -->
+                                        <div class="col-md-6">
+                                            <div class="feature-box-wrap f-box-style-1 relative">
+                                                <div class="feature-box-details">
+                                                    <div class="feature-icon margin-bottom-25"> <i class="bi bi-people"></i></div>
+                                                    <div class="feature-content">
+                                                        <div class="feature-title relative margin-bottom-15">
+                                                            <h4>Partner With LOGIF</h4>
+                                                        </div>
+                                                        <p class="mb-0">Help in reaching out to the widows, orphans,
+                                                            disabled and less privileged.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Feature Box End -->
+                                    </div>
+                                    <div class="button-section margin-top-35"> <a class="btn btn-default"
+                                            href="https://logif.org/" title="Learn More">Learn More</a> </div>
+                                </div>
+                                <!-- Col -->
+                            </div>
+                            <!-- Row -->
+                        </div>
+                        <!-- Container -->
+                    </section>
+                    <!-- About Section End -->
+                    <!-- Get a Quote Section -->
+                    <section id="get-quote-section" class="get-quote-section section-bg-img"
+                        data-bg="images/bg/bg-1.jpg">
+                        <div class="container">
+                            <!-- Row -->
+                            <div class="row text-center">
+                                <!-- Col -->
+                                <div class="col-md-12">
+                                    <div class="get-quote-1">
+                                        <!-- video wrap -->
+                                        <div class="video-wrap wrap-stretch relative margin-bottom-50">
+                                            <!-- video details -->
+                                            <div class="video-wrap-details">
+                                                <!-- video button -->
+                                                <div class="video-play-btn text-center">
+                                                    <div class="video-icon">
+                                                        <a class="popup-youtube box-shadow1"
+                                                            href="https://youtube.com/@christopherorjiministriescojim?si=jkam12rJ7ocdOU_6">
+                                                            <i class="bi bi-heart"></i> </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- video details End-->
+                                        </div>
+                                        <!-- video wrap end -->
+                                        <div class="title-wrap mb-0">
+                                            <div class="section-title typo-white margin-bottom-40">
+                                                <h2 class="title mb-3">“The Only Thing that cannot be destroyed by
+                                                    Anyone is your beleif in God, Jesus Christ and the HolySpirit.
+                                                    ”</h2> <span class="dancing-text">Quote by Christopher Orji
+                                                </span>
+                                            </div>
+                                            <div class="get-quote-btn"> <a class="btn btn-default"
+                                                    href="https://cojim.org/partnership" title="Donate Online">Be a Member Online</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Col -->
+                            </div>
+                            <!-- Row -->
+                        </div>
+                        <!-- Container -->
+                    </section>
+                    <!-- Get a Quote Section End -->
+                    <!-- Ministries Section -->
+                    <section id="ministries-section" class="ministries-section pad-top-95 pad-bottom-70">
+                        <div class="container">
+                            <!-- Row -->
+                            <div class="row">
+                                <div class="offset-md-2 col-md-8">
+                                    <div class="title-wrap text-center">
+                                        <div class="section-title"> <span
+                                                class="sub-title theme-color text-uppercase">LOGIF</span>
+                                            <h2 class="section-title margin-top-5">LOGIF TESTIMONIES</h2> <span
+                                                class="border-bottom center"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Ministries Main Slider-->
+                                <div class="owl-carousel ministries-main-wrapper" data-loop="1" data-nav="1"
+                                    data-dots="0" data-autoplay="0" data-autoplaypause="1" data-autoplaytime="5000"
+                                    data-smartspeed="1000" data-margin="30" data-items="3" data-items-tab="2"
+                                    data-items-mob="1">
+                                    <!--Item-->
+                                    <div class="item">
+                                        <div class="ministries-box-style-2">
+                                            <!-- Ministries Inner -->
+                                            <div class="ministries-inner">
+                                                <div class="ministries-thumb"> <img class="img-fluid squared w-100"
+                                                        src="./images/COJIM/logif charity1.jpg" width="360" height="240"
+                                                        alt="Agricultural Processing"> </div>
+                                                <!-- Ministries Content -->
+                                                <div class="ministries-content pad-30">
+                                                    <div class="ministries-title margin-bottom-15">
+                                                        <h4><a href="childrens-ministry.html"
+                                                                class="ministries-link">WHAT ARE YOU DOING TO THE BODY
+                                                                OF CHRIST?</a></h4>
+                                                    </div>
+                                                    <div class="ministries-desc">
+                                                        <p>During a powerful Sunday service at the City of Jesus
+                                                            International Ministry, the Spirit of God moved mightily
+                                                            through His servant, God’s Servant, Christopher
+                                                            Orji.
+
+                                                            In a heartfelt moment, Miss Tonia, a dedicated chorister in
+                                                            the ministry, was divinely located and blessed with the sum
+                                                            of ₦500,000. The joy and emotion on her face were
+                                                            undeniable.
+
+
+                                                            This act of divine generosity reminds us that God sees,
+                                                            remembers, and rewards faithfulness.
+
+                                                            This is Love in Action.
+                                                        </p>
+                                                    </div>
+                                                    <div class="ministries-link margin-top-20"> <a target="_blank"
+                                                            href="childrens-ministry.html" class="link">Read More</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Ministries Inner Ends -->
+                                        </div>
+                                    </div>
+                                    <!--Item Ends-->
+                                    <!--Item-->
+                                    <div class="item">
+                                        <div class="ministries-box-style-2">
+                                            <!-- Ministries Inner -->
+                                            <div class="ministries-inner">
+                                                <div class="ministries-thumb"> <img class="img-fluid squared w-100"
+                                                        src="./images/COJIM/logif charity2.jpg" width="360" height="240"
+                                                        alt="Agricultural Processing"> </div>
+                                                <!-- Ministries Content -->
+                                                <div class="ministries-content pad-30">
+                                                    <div class="ministries-title margin-bottom-15">
+                                                        <h4><a href="womens-ministry.html" class="ministries-link">LOVE
+                                                                TO THE ELDERLY</a></h4>
+                                                    </div>
+                                                    <div class="ministries-desc">
+                                                        <p>During a Sunday service, the Spirit of God once again
+                                                            moved through His anointed servant, Christopher
+                                                            Orji, as Prof. Tseayo, a respected elder in the ministry,
+                                                            was located and honoured with a cash gift of ₦1,000,000.
+
+                                                            The congregation rejoiced as this remarkable act of love
+                                                            unfolded before their eyes. Prof. Tseayo, overwhelmed with
+                                                            gratitude, received the blessing with humility and visible
+                                                            emotion, a testament to the faithfulness of God and the
+                                                            reward of steadfast service.</p>
+                                                    </div>
+                                                    <div class="ministries-link margin-top-20"> <a target="_blank"
+                                                            href="womens-ministry.html" class="link">Read More</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Ministries Inner Ends -->
+                                        </div>
+                                    </div>
+                                    <!--Item Ends-->
+                                    <!--Item-->
+                                    <div class="item">
+                                        <div class="ministries-box-style-2">
+                                            <!-- Ministries Inner -->
+                                            <div class="ministries-inner">
+                                                <div class="ministries-thumb"> <img class="img-fluid squared w-100"
+                                                        src="./images/COJIM/donate-min.jpg" width="360" height="240"
+                                                        alt="Agricultural Processing"> </div>
+                                                <!-- Ministries Content -->
+                                                <div class="ministries-content pad-30">
+                                                    <div class="ministries-title margin-bottom-15">
+                                                        <h4><a href="global-ministry.html" class="ministries-link">LESS
+                                                                PRIVILEDGED OUTREACH</a></h4>
+                                                    </div>
+                                                    <div class="ministries-desc">
+                                                        <p>In a recent outreach organized by the ministry, orphans and
+                                                            the less privileged were blessed with food items, clothing,
+                                                            financial support, and words of encouragement. The outreach,
+                                                            led by the man of God himself, was not just a distribution
+                                                            of material goods, but a divine visitation filled with
+                                                            prayers, comfort, and the tangible love of Christ.
+
+                                                            Smiles lit up the faces of children who had once known
+                                                            sorrow. Mothers and guardians wept tears of joy, not just
+                                                            for the help received, but for the hope restored.
+
+                                                            “Pure religion and undefiled before God is this: to visit
+                                                            the fatherless and widows in their affliction…” – James 1:27
+                                                        </p>
+                                                    </div>
+                                                    <div class="ministries-link margin-top-20"> <a target="_blank"
+                                                            href="global-ministry.html" class="link">Read More</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Ministries Inner Ends -->
+                                        </div>
+                                    </div>
+                                    <!--Item Ends-->
+                                    <!--Item-->
+                                    <div class="item">
+                                        <div class="ministries-box-style-2">
+                                            <!-- Ministries Inner -->
+                                            <div class="ministries-inner">
+                                                <div class="ministries-thumb"> <img class="img-fluid squared w-100"
+                                                        src="./images/COJIM/Mr Amos Ogbonnaya Charity.jpg" width="360"
+                                                        height="240" alt="Agricultural Processing"> </div>
+                                                <!-- Ministries Content -->
+                                                <div class="ministries-content pad-30">
+                                                    <div class="ministries-title margin-bottom-15">
+                                                        <h4><a href="music-ministry.html" class="ministries-link">Faith
+                                                                Rewarded: From Sacrifice to Supernatural Supply</a></h4>
+                                                    </div>
+                                                    <div class="ministries-desc">
+                                                        <p>Despite facing serious financial hardship, a devoted member
+                                                            of City of Jesus International Ministry still honoured his
+                                                            responsibility to God in his own small way.
+
+                                                            During a live Sunday service, the Spirit of God led Prophet
+                                                            Christopher Orji to locate and bless him with ₦1,000,000 — a
+                                                            divine reward for his faith and sacrifice.
+
+                                                            His story is a powerful reminder that God sees the heart and
+                                                            honours faithfulness, even in lack.</p>
+                                                    </div>
+                                                    <div class="ministries-link margin-top-20"> <a target="_blank"
+                                                            href="music-ministry.html" class="link">Read More</a> </div>
+                                                </div>
+                                            </div>
+                                            <!-- Ministries Inner Ends -->
+                                        </div>
+                                    </div>
+                                    <!--Item Ends-->
+                                </div>
+                                <!--Ministries Owl Slider-->
+                            </div>
+                            <!-- Row -->
+                        </div>
+                        <!-- Container -->
+                    </section>
+                    <!-- Ministries Section End -->
+                    <!-- Contact Section -->
+                    <section class="contact-form-section typo-white section-bg-img o-visible pad-top-80 pad-bottom-160" id="contact"
+                        data-bg="images/bg/bg-2.jpg">
+                        <div class="shape-bottom" data-negative="false">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+                                <path class="shape-fill" opacity="0.33"
+                                    d="M473,67.3c-203.9,88.3-263.1-34-320.3,0C66,119.1,0,59.7,0,59.7V0h1000v59.7 c0,0-62.1,26.1-94.9,29.3c-32.8,3.3-62.8-12.3-75.8-22.1C806,49.6,745.3,8.7,694.9,4.7S492.4,59,473,67.3z">
+                                </path>
+                                <path class="shape-fill" opacity="0.66"
+                                    d="M734,67.3c-45.5,0-77.2-23.2-129.1-39.1c-28.6-8.7-150.3-10.1-254,39.1 s-91.7-34.4-149.2,0C115.7,118.3,0,39.8,0,39.8V0h1000v36.5c0,0-28.2-18.5-92.1-18.5C810.2,18.1,775.7,67.3,734,67.3z">
+                                </path>
+                                <path class="shape-fill"
+                                    d="M766.1,28.9c-200-57.5-266,65.5-395.1,19.5C242,1.8,242,5.4,184.8,20.6C128,35.8,132.3,44.9,89.9,52.5C28.6,63.7,0,0,0,0 h1000c0,0-9.9,40.9-83.6,48.1S829.6,47,766.1,28.9z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <!-- col -->
+                                <div class="col-xl-4 pe-xl-4 pb-5 pb-xl-0">
+                                    <div class="flip-box broken-top-115 verticalMove">
+                                        <div class="flip-box-inner imghvr-flip-3d-horz">
+                                            <div class="flip-box-front">
+                                                <div class="flip-box-icon margin-bottom-40"><i
+                                                        class="bi bi-headphones  fs-3 text-primary"></i>
+                                                </div>
+                                                <h3 class="flip-box-title margin-bottom-30">Call Us</h3>
+                                                <div class="flip-content">
+                                                    <p>ENUGU STATE, NIGERIA</p>
+                                                    <p><a href="">Prayer lines Numbers:
+                                                            +234 906 628 0263,<br> +234 813 303 0917 <br>
+                                                            Testimony Number: +234 815 960 2829
+                                                        </a></p>
+                                                    <p><a href="mailto:info@cojim.org">info@cojim.org</a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="flip-box-back">
+                                                <h3 class="flip-box-title">Address:</h3>
+                                                <div class="flip-content">
+                                                    <p> IN/20, Emene Industrial Layout, The First Left Turn By CBN
+                                                        Quarters Double Lane, Opposite INNOSON Technical Company,
+                                                        Abakiliki Express Way, Enugu East LGA, Enugu State, Nigeria,
+                                                        West Africa.</p>
+
+
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- col -->
+                                <div class="col-xl-8 ps-xl-4">
+                                    <div class="section-title-wrapper">
+                                        <div class="title-wrap mb-0">
+                                            <div class="section-title"> <span
+                                                    class="sub-title theme-color text-uppercase">Get In Touch</span>
+                                                <h2 class="section-title margin-top-5">Don't hesitate Contact Us</h2>
+                                                <span class="border-bottom"></span>
+                                            </div>
+                                            <div class="pad-top-15">
+                                                <p class="margin-bottom-10">Whether you have questions, need prayers, or
+                                                    for partnerships — Please feel free to contact us.</p>
+                                            </div>
+                                        </div>
+                                        <div class="button-section margin-top-25"> <a class="btn btn-default"
+                                                href="mailto:info@cojim.org" title="Learn More">Contact Us</a> </div>
+                                    </div>
+                                </div>
+                                <!-- .col -->
+                            </div>
+                        </div>
+                    </section>
+                    <!-- Contact Form Section End -->
+                    <!-- Blog Section -->
+                    <section class="blog-section pad-top-50 pad-bottom-95" id="sermons">
+                        <div class="container">
+                            <!-- Blog Wrap -->
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="title-wrap text-center">
+                                        <div class="section-title"> <span
+                                                class="sub-title theme-color text-uppercase">MESSAGES OF FAITH</span>
+                                            <h2 class="section-title margin-top-5">Latest Sermons</h2> <span
+                                                class="border-bottom center"></span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <!--Blog Main Slider-->
+                                        <div class="owl-carousel blog-main-wrapper blog-style-1" data-loop="1"
+                                            data-nav="0" data-dots="1" data-autoplay="0" data-autoplaypause="1"
+                                            data-autoplaytime="5000" data-smartspeed="1000" data-margin="30"
+                                            data-items="3" data-items-tab="2" data-items-mob="1">
+                                            <!--Item-->
+                                            <div class="item">
+                                                <!--Blog Inner-->
+                                                <div class="blog-inner">
+                                                    <div class="blog-thumb relative"> <img
+                                                            src="images/COJIM/thumbnail1.jpg" class="img-fluid"
+                                                            width="768" height="600" alt="blog-img" />
+                                                        <div class="top-meta">
+                                                            <ul class="top-meta-list">
+                                                                <li>
+                                                                    <div class="post-date"><a href="blog-single.html"><i
+                                                                                class="ti-calendar"></i> Oct 21,
+                                                                            2019</a></div>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="blog-details">
+                                                        <div class="blog-title">
+                                                            <h4 class="margin-bottom-10"><a
+                                                                    href="https://youtu.be/Ysma2P7_2cg?si=BGPH67rBwlxf0ikY"
+                                                                    class="blog-name">Our True Homeland</a></h4>
+                                                        </div>
+                                                        <div class="post-desc mt-2">
+                                                            <div class="blog-link"> <a target="_blank"
+                                                                    href="https://youtu.be/Ysma2P7_2cg?si=BGPH67rBwlxf0ikY"
+                                                                    class="link font-w-500">Listen</a> </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--Blog Inner Ends-->
+                                            </div>
+                                            <!--Item Ends-->
+                                            <!--Item-->
+                                            <div class="item">
+                                                <!--Blog Inner-->
+                                                <div class="blog-inner">
+                                                    <div class="blog-thumb relative"> <img
+                                                            src="./images/COJIM/thumbnail2.jpg" class="img-fluid"
+                                                            width="768" height="600" alt="blog-img" />
+                                                        <div class="top-meta">
+                                                            <ul class="top-meta-list">
+                                                                <li>
+                                                                    <div class="post-date"><a href="blog-single.html"><i
+                                                                                class="ti-calendar"></i> Oct 21,
+                                                                            2019</a></div>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="blog-details">
+                                                        <div class="blog-title">
+                                                            <h4 class="margin-bottom-10"><a
+                                                                    href="https://youtu.be/vFh3etvc83M?si=8sUwNPkpw3j-77uu"
+                                                                    class="blog-name">The Reason We Should Help The
+                                                                    weak</a></h4>
+                                                        </div>
+                                                        <div class="post-desc mt-2">
+                                                            <div class="blog-link"> <a target="_blank"
+                                                                    href="https://youtu.be/vFh3etvc83M?si=8sUwNPkpw3j-77uu"
+                                                                    class="link font-w-500">Listen
+                                                                </a> </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--Blog Inner Ends-->
+                                            </div>
+                                            <!--Item Ends-->
+                                            <!--Item-->
+                                            <div class="item">
+                                                <!--Blog Inner-->
+                                                <div class="blog-inner">
+                                                    <div class="blog-thumb relative"> <img
+                                                            src="images/COJIM/thumnail3.jpg" class="img-fluid"
+                                                            width="768" height="600" alt="blog-img" />
+                                                        <div class="top-meta">
+                                                            <ul class="top-meta-list">
+                                                                <li>
+                                                                    <div class="post-date"><a href="blog-single.html"><i
+                                                                                class="ti-calendar"></i> Oct 20,
+                                                                            2019</a></div>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="blog-details">
+                                                        <div class="blog-title">
+                                                            <h4 class="margin-bottom-10"><a
+                                                                    href="https://youtu.be/HysgC83GEaU?si=5L_tsjg9_m7Sze_q"
+                                                                    class="blog-name">Be Strong And Courageous</a></h4>
+                                                        </div>
+                                                        <div class="post-desc mt-2">
+                                                            <div class="blog-link"> <a target="_blank"
+                                                                    href="https://youtu.be/HysgC83GEaU?si=5L_tsjg9_m7Sze_q"
+                                                                    class="link font-w-500">Listen</a> </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--Blog Inner Ends-->
+                                            </div>
+                                            <!--Item Ends-->
+                                            <!--Item-->
+                                            <div class="item">
+                                                <!--Blog Inner-->
+                                                <div class="blog-inner">
+                                                    <div class="blog-thumb relative"> <img
+                                                            src="images/COJIM/thumbnail4.jpg" class="img-fluid"
+                                                            width="768" height="600" alt="blog-img" />
+                                                        <div class="top-meta">
+                                                            <ul class="top-meta-list">
+                                                                <li>
+                                                                    <div class="post-date"><a
+                                                                            href="https://youtu.be/YTzUeBdJ_00?si=G5ZOtK0AJbOTfeDN"><i
+                                                                                class="ti-calendar"></i> Oct 19,
+                                                                            2019</a></div>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="blog-details">
+                                                        <div class="blog-title">
+                                                            <h4 class="margin-bottom-10"><a href="blog-single.html"
+                                                                    class="blog-name">The true Gospel of Jesus
+                                                                    Christ</a></h4>
+                                                        </div>
+                                                        <div class="post-desc mt-2">
+                                                            <div class="blog-link"> <a target="_blank"
+                                                                    href="https://youtu.be/YTzUeBdJ_00?si=G5ZOtK0AJbOTfeDN"
+                                                                    class="link font-w-500">Listen</a> </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--Blog Inner Ends-->
+                                            </div>
+                                            <!--Item Ends-->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Blog Wrap -->
+                        </div>
+                    </section>
+                    <!-- Blog Section End -->
+                </div>
+            </div>
+        </div>
+        <!-- .page-wrapper-inner -->
+    </div>
+    <!--page-wrapper-->
+    <!-- Footer -->
+    <footer id="footer" class="footer footer-1 footer-bg-img" data-bg="images/bg/footer-bg.jpg">
+        <!--Footer Widgets Columns Posibilities 4-->
+        <div class="footer-widgets">
+            <div class="footer-middle-wrap footer-overlay-dark">
+                <div class="color-overlay"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 widget text-widget">
+                            <div class="widget-title">
+                                <!-- Title -->
+                                <h3 class="title typo-white">Contact Us</h3>
+                            </div>
+                            <!-- Text -->
+                            <div class="widget-text margin-bottom-30">
+                                <p>Stay connected with us for more faith-filled moments and spirit-lifting content.
+                                    Follow us on Facebook and all our social media platforms — your encounter with God’s
+                                    power is just a click away!</p>
+                            </div>
+                            <div class="social-icons">
+                                <!-- Facebook -->
+                                <a href="https://facebook.com/ChristopherOrjiMinistriesCOJIM" class="social-fb"
+                                    target="_blank">
+                                    <i class="bi bi-facebook fs-3 me-3"></i>
+                                </a>
+
+                                <!-- Twitter -->
+                                <a href="https://twitter.com/cojimofficiel" class="social-twitter" target="_blank">
+                                    <i class="bi bi-twitter fs-3 me-3"></i>
+                                </a>
+
+                                <!-- Instagram -->
+                                <a href="https://instagram.com/cojimofficiel" class="social-instagram" target="_blank">
+                                    <i class="bi bi-instagram fs-3 me-3"></i>
+                                </a>
+
+                                <!-- TikTok -->
+                                <a href="https://tiktok.com/@cojim" class="social-tiktok" target="_blank">
+                                    <i class="bi bi-tiktok fs-3 me-3"></i>
+                                </a>
+
+                                <!-- YouTube -->
+                                <a href="https://youtube.com/@COJIMOfficial" class="social-youtube" target="_blank">
+                                    <i class="bi bi-youtube fs-3 me-3 text-danger"></i>
+                                </a>
+
+                                <!-- Twitch -->
+                                <a href="https://twitch.tv/christopherorjiministries" class="social-twitch"
+                                    target="_blank">
+                                    <i class="bi bi-twitch fs-3 me-3"></i>
+                                </a>
+
+                                <!-- Give -->
+                                <a href="https://logif.org" class="social-give" target="_blank" title="Give">
+                                    <i class="bi bi-gift fs-3"></i>
+                                </a>
+                            </div>
+
+                        </div>
+                        <!-- Col -->
+                        <div class="col-lg-3 widget text-widget">
+                            <div class="widget-title">
+                                <!-- Title -->
+                                <h3 class="title typo-white">Quick Links</h3>
+                            </div>
+                            <!-- Text -->
+                            <div class="menu-quick-links">
+                                <ul class="menu">
+                                    <li class="menu-item"><a href="#">About Us</a></li>
+                                    <li class="menu-item"><a href="#">Sermons</a></li>
+                                    <li class="menu-item"><a href="#">Partnership</a></li>
+                                    <li class="menu-item"><a href="#">Testimonies</a></li>
+                                    <li class="menu-item"><a href="#">Volunteer</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Col -->
+
+                        <!-- Col -->
+                        <div class="col-lg-3 widget contact-info-widget">
+                            <div class="widget-title">
+                                <!-- Title -->
+                                <h3 class="title typo-white">Newsletter</h3>
+                            </div>
+                            <p>Stay Connected to the Move of God!
+                                Subscribe to our newsletter for faith-lifting updates, testimonies,
+                                service highlights, and upcoming events.
+
+                                Don’t miss what God is doing at COJIM — sign up today!</p>
+                            <div class="mailchimp-widget-wrap">
+                                <!-- subscribe form -->
+                                <form id="subscribe-form-1" class="subscribe-form" action="inc/function.php">
+                                    <div class="input-group add-on">
+                                        <input type="text" class="form-control" name="mcemail" autocomplete="off"
+                                            id="mcemail-1" placeholder="Email Address">
+                                        <div class="input-group-btn">
+                                            <button class="btn btn-default subscribe-btn" type="submit">Sign Up</button>
+                                        </div>
+                                    </div>
+                                    <p class="subscribe-status-msg hide"></p>
+                                </form>
+                            </div>
+                        </div>
+                        <!-- Col -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Footer Copyright Columns Posibilities 4-->
+        <div class="footer-copyright">
+            <div class="footer-bottom-wrap pad-tb-20 typo-white">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <ul class="footer-bottom-items pull-left">
+                                <li class="nav-item">
+                                    <div class="nav-item-inner"> Copyrights ©
+                                        <script>
+                                            document.write(new Date().getFullYear())
+                                        </script> <a href="index.html">TechTee</a>. Designed by <a
+                                            href="https://github.com/1TechTee/">1techtee</a><span
+                                            class="heart-color">♥</span>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="footer-bottom-items footer-menu pull-right">
+                                <li class="nav-item"> <a href="#">Privacy</a> </li>
+                                <li class="nav-item"> <a href="#">Sermons</a> </li>
+                                <li class="nav-item"> <a href="#">Contact Us</a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer -->
+    <!-- Color Switcher -->
+    <div id="theme-panel" class="close-theme-panel">
+        <!--Panel Button --><a class="panel-button"><i class="fa  fa-life-ring"></i></a>
+        <div class="segment">
+            <h4 class="condensed semibold uppercase no-margin no-padding">Color Switcher</h4>
+        </div>
+        <!-- Colors -->
+        <div class="segment">
+            <a title="blue" class="switcher blue-bg"></a>
+            <a title="asphalt" class="switcher asphalt-bg"></a>
+            <a title="green" class="switcher green-bg"></a>
+            <a title="orange" class="switcher orange-bg"></a>
+            <a title="purple" class="switcher purple-bg"></a>
+            <a title="red" class="switcher red-bg"></a>
+            <a title="s-green" class="switcher s-green-bg"></a>
+            <a title="s-blue" class="switcher s-blue-bg"></a>
+            <a title="gray" class="switcher gray-bg"></a>
+            <a title="p-green" class="switcher p-green-bg"></a>
+        </div>
+    </div>
+    <!-- End Color Switcher -->
+    <!-- jQuery Lib -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Bootstrap Js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Easing Js -->
+    <script src="js/jquery.easing.min.js"></script>
+    <!-- Carousel Js Code -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- Paroller Js -->
+    <script src="js/jquery.paroller.min.js"></script>
+    <!-- Isotope Js -->
+    <script src="js/isotope.pkgd.min.js"></script>
+    <!-- Magnific Popup Js -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <!-- Validator Js -->
+    <script src="js/validator.min.js"></script>
+    <!-- Smart Resize Js -->
+    <script src="js/smartresize.min.js"></script>
+    <!-- Appear Js -->
+    <script src="js/jquery.appear.min.js"></script>
+    <!-- Theme Custom Js -->
+    <script src="js/custom.js"></script>
+    <!-- REVOLUTION JS FILES -->
+    <script src="rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+    <script src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+    <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
+    <script src="rs-plugin/js/main-slider/rbtools.min.js"></script>
+    <script src="rs-plugin/js/main-slider/rs6.min.js"></script>
+    <script src="rs-plugin/js/main-slider/home-1.js"></script>
+    <!-- Color -->
+    <script src="js/color-panel.js"></script>
+</body>
+<!-- Body End -->
+<!-- Body End -->
+
+</html>
