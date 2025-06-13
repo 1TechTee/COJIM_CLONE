@@ -18,27 +18,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Favicon -->
-    <link href="/images/COJIM/logo.png" rel="icon" />
+    <link href="/COJIM_CLONE/images/COJIM/logo.png" rel="icon" />
 
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
     <!-- CSS Styles -->
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/vendor.css">
-    <style>
-        body.testimony-bg {
-            background: url('/images/bg/bg-1.jpg') no-repeat top center !important;
-            background-size: cover !important;
-            background-attachment: fixed !important;
-            background-color:rgb(99, 97, 97) !important; /* fallback */
-        }
-    </style>
-
+    <link rel="stylesheet" href="/COJIM_CLONE/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/COJIM_CLONE/css/style.css">
+    <link rel="stylesheet" href="/COJIM_CLONE/css/vendor.css">
 </head>
 
-<body class="testimony-bg">
+<body>
 
     <!-- ✅ NAVBAR -->
     <?php include("partials/navbar.php"); ?> <br><br><br>
@@ -51,7 +42,7 @@
             <!-- Testimony 1 -->
             <div class="col-md-6 mb-4">
                 <div class="p-3 bg-light border rounded h-100 text-center">
-                    <img src="/images/COJIM/spanish_couple_testimony.jpg"
+                    <img src="/COJIM_CLONE/images/COJIM/spanish_couple_testimony.jpg"
                         alt="Esther's Testimony" class="img-fluid rounded mb-3" style="max-height: 200px; object-fit: cover;">
                     <h4>17 YEARS OF BARRENESS BROKEN BY GOD'S POWER</h4>
                     <p><strong>Mr. & Mrs. Wilson:</strong> On Sunday, February 2, 2025, during the live service at the City of Jesus International Ministry, we shared how God's mercy rewrote our story. For 17 years, we struggled to conceive and battled personal and spiritual challenges that nearly destroyed our peace, family, and future.
@@ -68,7 +59,7 @@
             <!-- Testimony 2 -->
             <div class="col-md-6 mb-4">
                 <div class="p-3 bg-light border rounded h-100 text-center">
-                    <img src="/images/COJIM/mr_chinedu.jpg" alt="Daniel's Testimony" class="img-fluid rounded mb-3" style="max-height: 200px; object-fit: cover;">
+                    <img src="/COJIM_CLONE/images/COJIM/mr_chinedu.jpg" alt="Daniel's Testimony" class="img-fluid rounded mb-3" style="max-height: 200px; object-fit: cover;">
                     <h4>TOTAL HEALING FROM KIDNEY FAILURE!</h4>
                     <p><strong>Mr. Chinedu Onyebuchi:</strong> I’m a devoted worker and aluminum fabricator from Enugu State. In January 2025, I was struck by a sudden illness that led to severe diarrhea and a diagnosis of kidney failure. My condition grew worse even after multiple hospital visits. At a critical point, the dialysis machine malfunctioned, and doctors suggested a risky alternative treatment that could have affected my heart.
 
@@ -130,36 +121,15 @@
             <button type="submit" class="btn btn-primary w-100">Submit Testimony</button>
         </form>
     </section>
-  
-
 
     <!-- ✅ FOOTER -->
     <?php include("partials/footer.php"); ?>
 
     <!-- ✅ JavaScript Files -->
-    <script src="/js/jquery.min.js"></script>
-    <script src="/js/bootstrap.bundle.min.js"></script>
-    <script src="/js/jquery.easing.min.js"></script>
-    <script src="/js/owl.carousel.min.js"></script>
-    <script src="/js/jquery.paroller.min.js"></script>
-    <script src="/js/isotope.pkgd.min.js"></script>
-    <script src="/js/jquery.magnific-popup.min.js"></script>
-    <script src="/js/validator.min.js"></script>
-    <script src="/js/smartresize.min.js"></script>
-    <script src="/js/jquery.appear.min.js"></script>
-    <script src="/js/custom.js"></script>
-    <script src="/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-    <script src="/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-    <script src="/rs-plugin/js/main-slider/rbtools.min.js"></script>
-    <script src="/rs-plugin/js/main-slider/rs6.min.js"></script>
-    <script src="/rs-plugin/js/main-slider/home-1.js"></script>
-    <script src="/js/color-panel.js"></script>
-
+    <script src="/COJIM_CLONE/js/jquery.min.js"></script>
+    <script src="/COJIM_CLONE/js/bootstrap.bundle.min.js"></script>
+    <script src="/COJIM_CLONE/js/custom.js"></script>
     <!-- Add other JS files as needed -->
-
-    <!-- Dummy copy-year span to prevent JS crash -->
-<span id="copy-year" style="display: none;"></span>
-
 </body>
 
 </html>

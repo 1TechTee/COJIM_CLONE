@@ -5,14 +5,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="/images/COJIM/logo.png" rel="icon">
+    <link href="/COJIM_CLONE/images/COJIM/logo.png" rel="icon">
     <!-- bootstrap icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
 
 
     <!-- Font Awesome -->
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/COJIM_CLONE/css/all.min.css"> -->
 
 
     <!-- Themify Icons (CDN) -->
@@ -215,7 +215,7 @@
                             </ul>
                             <ul class="nav mobile-header-items pull-center">
                                 <li>
-                                    <a href="index.html" class="img-before"><img src="/images/COJIM/logo.png" class="img-fluid changeable-dark" width="149" alt="Logo"></a>
+                                    <a href="index.html" class="img-before"><img src="/COJIM_CLONE/images/COJIM/logo.png" class="img-fluid changeable-dark" width="149" alt="Logo"></a>
                                 </li>
                             </ul>
                             <ul class="nav mobile-header-items pull-right">
@@ -263,8 +263,8 @@
                         <div class="basic-container clearfix">
                             <ul class="nav navbar-items pull-left">
                                 <li class="list-item">
-                                    <a href="index.html" class="logo-general"><img src="/images/COJIM/logo.png" class="img-fluid changeable-light" width="166" height="50" alt="Logo" /></a>
-                                    <a href="index.html" class="logo-sticky"><img src="/images/COJIM/logo.png" class="img-fluid changeable-dark" width="166" height="50" alt="Logo" /></a>
+                                    <a href="index.html" class="logo-general"><img src="/COJIM_CLONE/images/COJIM/logo.png" class="img-fluid changeable-light" width="166" height="50" alt="Logo" /></a>
+                                    <a href="index.html" class="logo-sticky"><img src="/COJIM_CLONE/images/COJIM/logo.png" class="img-fluid changeable-dark" width="166" height="50" alt="Logo" /></a>
                                 </li>
                             </ul>
                             <ul class="nav navbar-items pull-right">
@@ -291,23 +291,23 @@
         </div>
     </header>
 
-    <script src="/js/jquery.min.js"></script>
-    <script src="/js/bootstrap.bundle.min.js"></script>
-    <script src="/js/jquery.easing.min.js"></script>
-    <script src="/js/owl.carousel.min.js"></script>
-    <script src="/js/jquery.paroller.min.js"></script>
-    <script src="/js/isotope.pkgd.min.js"></script>
-    <script src="/js/jquery.magnific-popup.min.js"></script>
-    <script src="/js/validator.min.js"></script>
-    <script src="/js/smartresize.min.js"></script>
-    <script src="/js/jquery.appear.min.js"></script>
-    <script src="/js/custom.js"></script>
-    <script src="/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-    <script src="/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-    <script src="/rs-plugin/js/main-slider/rbtools.min.js"></script>
-    <script src="/rs-plugin/js/main-slider/rs6.min.js"></script>
-    <script src="/rs-plugin/js/main-slider/home-1.js"></script>
-    <script src="/js/color-panel.js"></script>
+    <script src="/COJIM_CLONE/js/jquery.min.js"></script>
+    <script src="/COJIM_CLONE/js/bootstrap.bundle.min.js"></script>
+    <script src="/COJIM_CLONE/js/jquery.easing.min.js"></script>
+    <script src="/COJIM_CLONE/js/owl.carousel.min.js"></script>
+    <script src="/COJIM_CLONE/js/jquery.paroller.min.js"></script>
+    <script src="/COJIM_CLONE/js/isotope.pkgd.min.js"></script>
+    <script src="/COJIM_CLONE/js/jquery.magnific-popup.min.js"></script>
+    <script src="/COJIM_CLONE/js/validator.min.js"></script>
+    <script src="/COJIM_CLONE/js/smartresize.min.js"></script>
+    <script src="/COJIM_CLONE/js/jquery.appear.min.js"></script>
+    <script src="/COJIM_CLONE/js/custom.js"></script>
+    <script src="/COJIM_CLONE/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+    <script src="/COJIM_CLONE/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="/COJIM_CLONE/rs-plugin/js/main-slider/rbtools.min.js"></script>
+    <script src="/COJIM_CLONE/rs-plugin/js/main-slider/rs6.min.js"></script>
+    <script src="/COJIM_CLONE/rs-plugin/js/main-slider/home-1.js"></script>
+    <script src="/COJIM_CLONE/js/color-panel.js"></script>
 
 
 </body>
