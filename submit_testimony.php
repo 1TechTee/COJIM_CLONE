@@ -45,7 +45,8 @@
 
     <!-- ✅ Static Encouraging Testimonies -->
     <section class="container py-5 mt-5" style="margin-top: 550px;">
-        <h2 class="text-center mb-4" style="color: white;">Your present situation is nothing but a mere challenge to God ~Christopher Orji</h2>
+        <h2 class="text-center mb-4" style="color: white;">Your Testimonies are effective weapons against the kingdom of darkness. ~Christopher Orji <br> <br> 
+    We Overcome by the blood of the lamb and by the words of our testimonies. Rev 12 vs 11</h2>
 
         <div class="row">
             <!-- Testimony 1 -->
@@ -86,7 +87,7 @@
 
     <!-- ✅ Testimony Submission Form -->
     <section class="container py-5">
-        <h2 class="text-center mb-4" style="color: white;">Rev 12:11- we overcome by the blood of the lamb and the words of our testimonies <br> <br> SHARE YOUR TESTIMONIES BELOW</h2>
+        <h2 class="text-center mb-4" style="color: white;">I will speak of thy testimonies also before kings, and will not be ashamed. – Psalm 119:46 <br> <br> SHARE YOUR TESTIMONIES BELOW</h2>
         <form action="process_testimony.php" method="POST" enctype="multipart/form-data" class="bg-white p-4 border rounded">
 
             <div class="mb-3">
