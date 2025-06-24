@@ -23,13 +23,13 @@ if ($conn->connect_error) {
 }
 
 // Get form data
-$name         = htmlspecialchars($_POST['name']);
-$email        = htmlspecialchars($_POST['email']);
-$phone        = htmlspecialchars($_POST['phone']);
-$share_live   = $_POST['share_live'];
-$prayer_date  = $_POST['prayer_date'];
-$summary      = htmlspecialchars($_POST['summary']);
-$attachment   = "";
+$name         = isset($_POST['name']) ? htmlspecialchars($_POST['name']) : '';
+$email        = isset($_POST['email']) ? htmlspecialchars($_POST['email']) : '';
+$phone        = isset($_POST['phone']) ? htmlspecialchars($_POST['phone']) : '';
+$share_live   = isset($_POST['share_live']) ? $_POST['share_live'] : '';
+$prayer_date  = isset($_POST['prayer_date']) ? $_POST['prayer_date'] : '';
+$summary      = isset($_POST['summary']) ? htmlspecialchars($_POST['summary']) : '';
+$attachment   = ''; // Initialize attachment variable
 
 // Handle file upload if a file was sent
 if (!empty($_FILES['attachment']['name'])) {
@@ -59,6 +59,12 @@ if (!empty($_FILES['attachment']['name'])) {
 }
 
 // Insert into testimonies table
+
+echo "<pre>";
+print_r($_POST);
+print_r($_FILES);
+echo "</pre>";
+
 $sql = "INSERT INTO testimonies (name, email, phone, share_live, prayer_date, summary, attachment, status)
         VALUES (?, ?, ?, ?, ?, ?, ?, 'pending')";
 

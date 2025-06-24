@@ -8,11 +8,11 @@ ini_set('display_errors', 1);
 $local = ($_SERVER['SERVER_NAME'] == 'localhost');
 
 if ($local) {
-    // Localhost (XAMPP) settings
-    $host = 'localhost';
-    $user = 'root';
-    $pass = '';
-    $dbname = 'cojim_db'; // use your local DB name here
+    
+   $host = "sql101.infinityfree.com";       
+$user = "if0_39216875";             
+$pass = "09060946854Tee";                 // Your DB password
+$dbname = "if0_39216875_cojim";   // use your local DB name here
 } else {
     // Live server (InfinityFree) settings
     $host = 'sql101.infinityfree.com';
